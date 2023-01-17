@@ -52,6 +52,9 @@ body{
 .sobre p{
     text-align: justify;
 }
+.sobre :nth-child(2){
+    padding-bottom: 1rem;
+}
 .contatos{
     text-align: center;
 }
