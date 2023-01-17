@@ -1,5 +1,7 @@
+:root{
+    --border-radius: 25px;
+}
 @import url("rolagem.css");
-
 
 html{
     scroll-behavior: smooth;
@@ -25,7 +27,7 @@ body{
     background-color: #ffffffb4;
     width: calc(35rem + 8vw);
     /* border: 2px solid yellow; */
-    border-radius: 2.5rem;
+    border-radius: var(--border-radius);
     overflow: hidden;
 
     padding: 2rem 1rem;
@@ -66,9 +68,10 @@ a, li{
     list-style: none;
     text-decoration: none;
     padding-top: .8rem;
-    border-radius: 2.5rem;
+    border-radius: var(--border-radius);
     font-weight: bold;
     color: #000;
+    transition: all .5s ease-out;
 }
 .redes-sociais{
     padding: 1rem;
@@ -93,4 +96,10 @@ a, li{
     height: 4rem;
     /* background-image: linear-gradient(#1aec2fdd, #147224); */
     background-color: #1aec2fcd;
+}
+
+/* || Efeitos de botoes, links */
+li a:hover{
+    opacity: 0.7;
+    transition: all .5s ease-out;
 }
