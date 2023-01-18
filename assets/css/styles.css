@@ -81,6 +81,10 @@ a, li{
     padding: 1rem;
     /* opacity: 80%; */
 }
+a{
+    width: 22rem;
+    height: 4rem;
+}
 /* .redes-sociais .linkdin{
     display: block;
     width: 22rem;
@@ -89,15 +93,11 @@ a, li{
 } */
 .redes-sociais .insta{
     display: block;
-    width: 22rem;
-    height: 4rem;
     /* background-image: linear-gradient(#c96c01, #6c007a); */
     background-color: #f55308cd;
 }
 .redes-sociais .whats{
     display: block;
-    width: 22rem;
-    height: 4rem;
     /* background-image: linear-gradient(#1aec2fdd, #147224); */
     background-color: #1aec2fcd;
 }
@@ -115,7 +115,7 @@ li a:hover{
     opacity: 30%;
     transition: all .5s ease-out;
     font-size: .5rem;
-    z-index: -1;
+    z-index: 1;
 }
 .heart{
     color: #f00;
