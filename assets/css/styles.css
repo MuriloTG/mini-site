@@ -115,6 +115,7 @@ li a:hover{
     opacity: 30%;
     transition: all .5s ease-out;
     font-size: .5rem;
+    z-index: -1;
 }
 .heart{
     color: #f00;
