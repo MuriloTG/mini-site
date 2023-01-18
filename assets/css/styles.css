@@ -51,6 +51,9 @@ body{
 }
 .sobre{
     text-align: center;
+    max-height: 18rem;
+    overflow-y: auto;
+    padding-right: 1rem;
 }
 .sobre p{
     text-align: justify;
