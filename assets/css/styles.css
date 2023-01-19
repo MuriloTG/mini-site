@@ -87,30 +87,7 @@ hr{
     font-size: 1.6rem;
     border-radius: var(--border-radius);
     transition: all .5s ease-out;
-    text-decoration: none;
 }
-ul{
-    padding: 0;
-}
-li{
-    list-style: none;
-}
-/* a, li{
-    list-style: none;
-    text-decoration: none;
-    padding-top: .8rem;
-    border-radius: var(--border-radius);
-    font-weight: bold;
-    color: #000;
-    transition: all .5s ease-out;
-} */
-/* .redes-sociais{
-    padding: 1rem;
-} */
-/* a{
-    width: 22rem;
-    height: 4rem;
-} */
 /* .redes-sociais .linkdin{
     display: block;
     width: 22rem;
