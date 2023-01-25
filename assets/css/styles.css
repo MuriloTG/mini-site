@@ -21,9 +21,9 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 3rem;
+    padding: 1rem;
 }
-
+/* || Card principal */
 .container{
     background-color: #ffffffb4;
     width: calc(35rem + 8vw);
